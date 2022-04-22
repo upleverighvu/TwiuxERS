@@ -32,10 +32,7 @@ jobs:
       - name: Clean workspace
         uses: Chia-Network/actions/clean-workspace@main
 
-      - name: Checkout Code
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+      - name: Checkout Code 
 
       - name: Setup Python environment
         uses: actions/setup-python@v2
